@@ -46,6 +46,7 @@ create table `sakila`.`city` (
   `city` varchar(50) not null,
   `country_id` smallint unsigned not null,
   `last_update` timestamp not null default CURRENT_TIMESTAMP,
+  `nullable` varchar(100) null,
   constraint `PRIMARY`
     primary key (`city_id`)
 );
