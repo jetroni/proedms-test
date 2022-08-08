@@ -9,6 +9,10 @@ create table `experiment`.`actor` (
   constraint `PRIMARY`
     primary key (`actor_id`)
 );
+create table `sakila`.`TESTCHAR` (
+  `TESTCHAR` char(1) null,
+  `maxchar` varchar(16382) null
+);
 create table `sakila`.`actor` (
   `actor_id` smallint unsigned not null auto_increment,
   `first_name` varchar(45) not null,
