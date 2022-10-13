@@ -1,0 +1,1 @@
+ALTER TABLE `js_table` MODIFY `column` integer NULL;
