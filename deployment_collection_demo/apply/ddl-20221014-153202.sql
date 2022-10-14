@@ -1,0 +1,1 @@
+ALTER TABLE `js_table` ADD COLUMN `text` int NULL;
