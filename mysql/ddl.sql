@@ -1,0 +1,1 @@
+CREATE TABLE `test_table`(`column` VARCHAR(0) NULL, `mycol` VARCHAR(0) NULL);

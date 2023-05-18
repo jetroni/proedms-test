@@ -1,0 +1,1 @@
+{"name":"test_schema","type":"record","fields":[{"name":"test_table","type":"record","fields":[{"name":"column","type":"string","properties":{"description":""}},{"name":"mycol","type":"string","properties":{"description":""}}],"properties":{"description":""}}],"properties":{"description":""}}
