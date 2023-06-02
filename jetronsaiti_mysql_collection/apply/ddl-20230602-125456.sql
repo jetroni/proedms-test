@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS `jetron_schema`;CREATE TABLE `jetron_schema`.`actor`(`actor_id` INT UNSIGNED NOT NULL, `first_name` VARCHAR(45) NOT NULL, `last_name` VARCHAR(45) NOT NULL, `last_update` TIMESTAMP NOT NULL, PRIMARY KEY (`actor_id`));
