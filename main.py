@@ -3,7 +3,7 @@ def main():
 
     # Enhancement: print the current year
     import datetime
-    current_year = datetime.datetime.now().year
+    current_year = datetime.date.today().year
     print(f"The current year is {current_year}.")
 
 if __name__ == "__main__":
